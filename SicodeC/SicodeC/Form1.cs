@@ -16,5 +16,10 @@ namespace SicodeC
         {
             InitializeComponent();
         }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+            //teste;
+        }
     }
 }
