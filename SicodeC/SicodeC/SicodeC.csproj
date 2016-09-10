@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FirebirdSql.Data.FirebirdClient">
-      <HintPath>..\..\..\..\..\Google Drive\PJ01 - Infinity\Banco\DLL de acesso ao banco de dados\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+      <HintPath>C:\Users\Lu311\Google Drive\PJ01 - Infinity\Banco\DLL de acesso ao banco de dados\FirebirdSql.Data.FirebirdClient.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

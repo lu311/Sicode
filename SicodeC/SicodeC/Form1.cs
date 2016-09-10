@@ -8,11 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using SicodeC.Classes;
+using SicodeC.Banco;
 
 namespace SicodeC
 {
     public partial class frmCadastro : Form
     {
+        private object bancobf;
+
         public frmCadastro()
         {
             InitializeComponent();
@@ -62,7 +65,7 @@ namespace SicodeC
                     Cliente cliente = new Cliente();
 
                     cliente.TipoCategoria = cbxCategoria.Text;
-                    cliente.Codigo        = Convert.ToInt32(txtCodigo.Text);
+                    //cliente.Codigo        = Convert.ToInt32(txtCodigo.Text); campo nao tem valor
                     cliente.DataCadastro  = txtDataCadastro.Text;
                     cliente.Nome          = txtNome.Text;
                     cliente.NomeFantasia  = txtNomeFantasia.Text;
@@ -78,6 +81,14 @@ namespace SicodeC
                         cliente.CadastroInativo = "Inativo";
                     else
                         cliente.CadastroInativo = "Ativo";
+
+                    // teste de acesso ao banco de dados
+                    /*
+                    BancoFB banco = new BancoFB();
+                    banco.abrirConexao();
+                    DataTable t = banco.Select("select * from cliente");
+                    this.Text = "quantidade de registro na tabela" + t.Rows.Count;
+                    */
                 }
                 else
                 {

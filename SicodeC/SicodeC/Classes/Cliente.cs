@@ -94,12 +94,12 @@ namespace SicodeC.Classes
         {
             get
             {
-                return NomeFantasia1;
+                return nomeFantasia;
             }
 
             set
             {
-                NomeFantasia1 = value;
+                nomeFantasia = value;
             }
         }
         public string Cpf

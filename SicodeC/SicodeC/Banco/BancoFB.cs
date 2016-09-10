@@ -22,7 +22,7 @@ namespace SicodeC.Banco
         /// </summary>
         public BancoFB()
         {
-            banco = @"User=infinityinformatica;"
+            banco = @"User=infinityinformatica2;"
                 + "Password=team1234;"
                 + "Database=firebird.infinityinformatica.com.br:/firebird/infinityinformatica2.gdb;"
                 + "Dialect=3;"
