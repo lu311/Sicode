@@ -23,8 +23,8 @@ namespace SicodeC.Banco
         public BancoFB()
         {
             banco = @"User=infinityinformatica;"
-                + "Password=rapport;"
-                + "Database=firebird.infinityinformatica.com.br:/firebird/infinityinformatica.gdb;"
+                + "Password=team1234;"
+                + "Database=firebird.infinityinformatica.com.br:/firebird/infinityinformatica2.gdb;"
                 + "Dialect=3;"
                 + "DataSource=firebird.infinityinformatica.com.br;"
                 + "Port=3050";
