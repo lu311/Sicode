@@ -88,6 +88,7 @@ namespace SicodeC
                     banco.abrirConexao();
                     DataTable t = banco.Select("select * from cliente");
                     this.Text = "quantidade de registro na tabela" + t.Rows.Count;
+                    lllllllll
                     */
                 }
                 else
